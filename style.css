@@ -1,0 +1,70 @@
+body{
+    background-color: #fafafa;
+}
+
+h1{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    color: blue;
+}
+
+section{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.login{
+    padding: .5rem 1.5rem;
+    border: 1px solid green;
+    border-radius: 10px;
+    font-weight: bold;
+    color: green;
+    box-shadow: 0 2px 0 0 hwb(120 0% 50% / 0.571);
+}
+
+.login:hover{
+    background-color: green;
+    transition: ease-out;
+    transition-duration: .5s;
+    color: white;
+}
+
+.login:active{
+    box-shadow: 0 0 0 0 hwb(240 0% 0% / 0.571);
+    padding-bottom: 10px;
+}
+
+.signup{
+    padding: .5rem 1.5rem;
+    border: 1px solid blue;
+    border-radius: 10px;
+    font-weight: bold;
+    color: blue;
+    box-shadow: 0 2px 0 0 hwb(240 0% 0% / 0.571);
+
+}
+
+.signup:hover{
+    background-color: blue;
+    transition: ease-out;
+    transition-duration: .5s;
+    color: white;
+}
+
+.signup:active{
+    box-shadow: 0 0 0 0 hwb(240 0% 0% / 0.571);
+    padding-bottom: 10px;
+}
+
+span:first-child{
+    position: relative;
+    height: 10px;
+    background-color: blue;
+
+}
